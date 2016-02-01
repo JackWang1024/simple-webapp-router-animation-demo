@@ -1,11 +1,13 @@
-/*
-* 1: 初始化
-* 2: 路由挑战需要放置在a标签的href属性里面，可带参数的a标签  href="#detail?id=1234"
-* 3: 需要提供go和back事件，
-* 4: 点击或者触发路由事件的时候,获取对应的view 添加动画效果，
-* 4: 每个路由的跳转，需要提供before，after事件，并能返回路由对象
-* 5: 404路由
+/**
+ * Spa.js 1.0.0
+ * A very simple single-page-application Framework
+ * 
+ * author: Hejx
+ * https://github.com/Alex-fun/simple-single-page-application-demo
+ * 
+ * Licensed under MIT
  */
+
 
 (function(window, undefined){
     window.Spa = function(){
