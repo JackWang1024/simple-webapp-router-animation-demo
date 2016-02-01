@@ -1,7 +1,7 @@
 # simple-single-page-application-demo
 异常简单的单页面应用例子
 
-(DEMO)[http://codepen.io/hejx/pen/eJKwPm]
+(DEMO) [http://codepen.io/hejx/pen/eJKwPm]
 
 ### 注意⚠️
 1. 只支持内嵌html page切换
