@@ -99,11 +99,6 @@ body {
   z-index: -1;
   content: '';
 }
-html.android .swipeback-page-shadow {
-  display: none;
-  -webkit-animation: none;
-  animation: none;
-}
 .page-transitioning,
 .page-transitioning .swipeback-page-shadow {
   -webkit-transition-duration: 400ms;
@@ -120,12 +115,6 @@ html.android .swipeback-page-shadow {
   background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.2) 100%);
   z-index: -1;
   content: '';
-}
-html.android .page-from-right-to-center:before,
-html.android .page-from-center-to-right:before {
-  display: none;
-  -webkit-animation: none;
-  animation: none;
 }
 .page-from-right-to-center {
   -webkit-animation: pageFromRightToCenter 400ms forwards;
